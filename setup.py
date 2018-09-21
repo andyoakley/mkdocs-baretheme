@@ -15,7 +15,7 @@ setup(
     include_package_data=True,
     entry_points={
         'mkdocs.themes': [
-            'bare = bare',
+            'bare = mkdocs_baretheme',
         ]
     },
     zip_safe=False
